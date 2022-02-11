@@ -43,7 +43,7 @@ function EditProduct({ showEditModal, onSuccess, product, onClose, type }) {
                         wrapperCol={{ span: 16 }}
                         initialValues={{
                             sku: product.sku,
-                            name: product.product_name,
+                            product_name: product.product_name,
                             qty: product.qty,
                             price: product.price,
                             unit: product.unit,
